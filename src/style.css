@@ -1,0 +1,17 @@
+.loader {
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px inset rgb(243, 195, 74);
+  width: 60px;
+  height: 60px;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
